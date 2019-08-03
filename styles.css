@@ -1,13 +1,22 @@
 nav{
   position: fixed;
   text-decoration: none;
-  float: right;
+  display:flex;
+  flex-direction: row-reverse;
+  width:100%;
 }
 .navelements{
   text-decoration: none;
   decoration: none;
+  margin-right: 20px;
+  text-decoration-color: black;
+  color: black;
 }
-.navelements:hover{
+a{
+  color:black;
+  text-decoration: none;
+}
+a:hover{
   text-decoration: underline;
 }
 .page{
@@ -21,8 +30,45 @@ img{
   max-width: 272px;
 }
 input{
-  width: 300px;
+  width: 500px;
+  border-radius: 50px;
+  height: 20px;
 }
 input:hover{
   border-block-color: aqua;
 }
+#buttonDiv{
+  margin-top: 20px;
+}
+button{
+  margin-top: 10px;
+  background-color: #f1f2ed;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: none;
+  border-color: white;
+  display: inline-block;
+}
+button:hover{
+  text-emphasis: bold;
+  border-color: black;
+}
+button:visited{
+  border-color: none;
+}
+input:hover{
+  scale: 150%;
+}
+
+footer{
+  background-color:rgba(189, 182, 182, 0.781);
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+.footerup{
+  border-bottom: 1px solid black;
+}
+
